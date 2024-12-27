@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+    background-color: #0a0a0a;
+  }
+  
+  .app.light {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .app.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #0a0a0a;
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-weight: 900;
+    
+  }
+  
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    border-radius: 10px;
+    background-color: #121212;
+    box-shadow: 0 2px 5px rgba(211, 209, 209, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 10px 50px;
+    color: #fff;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .inputs input {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin: 1rem 0;
+    color: #fff;
+  }
+  
+  .footer button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #0e36e9;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer button:hover {
+    background-color: #005fa3;
+  }
+  
+  
